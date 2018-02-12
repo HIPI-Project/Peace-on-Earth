@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Human Intelligence Protocol Interface</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/base.css">
+
+		<link rel="icon" type="image/png" href="HIPI-Logo-128x128.png" sizes="128x128" />
+		<link rel="icon" type="image/png" href="HIPI-Logo-32x32.png" sizes="32x32" />
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' sizes="16x16" />
+
+		<script>
+			"use strict";
+
+			// Pass a callback into this function which will be executed after the application has initialized its core libraries.
+			function postInit(functionObj){
+
+				// This array is 1 of 2 global variables used throughout the application.
+				if(!window.delayedComponentCreationArr) 
+					window.delayedComponentCreationArr = [];
+
+				window.delayedComponentCreationArr.push(functionObj);
+			}
+		</script>
+
+		<script src="js/AppContainer.js"></script>
+
+		<script src="js/framework/View.js"></script>
+		<script src="js/framework/Utilities.js"></script>
+		<script src="js/framework/Constants.js"></script>
+		<script src="js/framework/Component.js"></script>
+		<script src="js/framework/ComponentCollection.js"></script>
+		<script src="js/framework/ComponentInstance.js"></script>
+		<script src="js/framework/AppState.js"></script>
+		<script src="js/framework/Events.js"></script>
+
+		<script src="js/state/ActionNames.js"></script>
+		<script src="js/state/ActionMethods.js"></script>
+		<script src="js/state/ActionObjects.js"></script>
+		<script src="js/state/stateCleaner.js"></script>
+		<script src="js/state/reducerMain.js"></script>
+
+		<script src="js/components/main.js"></script>
+		<script src="js/components/mainTabs.js"></script>
+		<script src="js/components/dialogs.js"></script>
+		<script src="js/components/dialog.js"></script>
+		<script src="js/components/dialogSorter.js"></script>
+		<script src="js/components/dialogNavigation.js"></script>
+		<script src="js/components/dialogProperties.js"></script>
+		<script src="js/components/newMessageWindow.js"></script>
+		<script src="js/components/editMessageWindow.js"></script>
+		<script src="js/components/newMessageTabs.js"></script>
+		<script src="js/components/newContradiction.js"></script>
+		<script src="js/components/contradictionWindow.js"></script>
+		<script src="js/components/newMessageCustomText.js"></script>
+		<script src="js/components/newMessageSymbolicLink.js"></script>
+		<script src="js/components/autoComplete.js"></script>
+		<script src="js/components/newContradictionTabs.js"></script>
+		<script src="js/components/suggestedContradictions.js"></script>
+		<script src="js/components/myContributions.js"></script>
+		<script src="js/components/userSettings.js"></script>
+		<script src="js/components/map.js"></script>
+
+		<script src="js/lib/Dialogs.js"></script>
+		<script src="js/lib/Contradictions.js"></script>
+		<script src="js/lib/General.js"></script>
+		<script src="js/lib/Contributions.js"></script>
+		<script src="js/lib/MapMessage.js"></script>
+		<script src="js/lib/MapRowOrColumn.js"></script>
+		<script src="js/lib/Language.js"></script>
+
+		<script src="js/boot.js"></script>
+
+	</head>
+
+	<body>
+		<app>
+			<center><br/>The Human Intelligence Protocol Interface
+					<br/>
+					<br/> ... please wait ...
+			</center>
+		</app>
+	</body>
+
+</html>

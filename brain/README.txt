@@ -1,0 +1,1 @@
+To active another database, rename one of the JSON files in this folder to "cortex.json" and refresh the browser.

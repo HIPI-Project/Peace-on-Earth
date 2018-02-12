@@ -1,0 +1,13 @@
+{
+  "name": "HIPI",
+  "version": "28.28.28",
+  "description": "The Human Intelligence Protocol Interface is a local HTML5 application that fosters intelligent discussion.",
+  "scripts": {
+    "start": "node server"
+  },
+  "licenses": [
+    {
+      "type": "Open-As-Can-Be---weeeeeeee"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+	"domains": [
+		{
+			"domainName": "Peace on Earth",
+			"dialogs": [
+				{
+					"message": "Peace on Earth within ten years is not impossible.",
+					"dialogs": [
+						{
+							"message": "There will always be some people who will attempt to take what others have.  For this reason war will continue to exist.",
+							"dialogs": [
+								{
+									"message": "You can always count on people to be selfish, but that doesn't mean they need to be greedy.  The choices that people make depend upon the path of least resistance. The key to ending centuries of war and theft is an overabundance of mankind's necessities through automation, creativity, and open source.  By ending desperation for food, water, electricity, medicine, and shelter it will not be possible for the most ruthless of individuals to bribe, scare, or motivate others into fighting for more.",
+									"dialogs": [
+										{
+											"message": "Rich people commonly steal from others to get even richer. They can never have enough.",
+											"dialogs": [
+												{
+													"message": "Under a capitalistic paradigm \"global value\" invites theft.  For example, someone can steal a painting that they don't want and trade it for something that they do (such as a car). \n\nUnder an open source paradigm there isn't a notion of global value.  You wouldn't be able to get a car or a house any quicker by giving someone gold.",
+													"dialogs": [
+														{
+															"message": "Maybe someone can't trade gold for a car in a theoretical open source paradigm, however they could still rob the car itself if there is no government or police to stop them.",
+															"dialogs": [
+																{
+																	"message": "People will always take the path of least resistance. If machines can produce a car or a house with little waiting, why would someone risk stealing the same from others?  Even if a person had something stolen it shouldn't be devastating because they could replace it without \"cost\".\n\nThere might not be authority in the new world but bio-metric applications will be commonplace for everyone's security.  In today's world, people who commit heinous crimes blend into crowds of people who are unaware.  In tomorrow's world people's actions will follow them like a black cloud or a halo.  The risk of getting caught by someone's camera might be worse than getting cuffed because alarm bells would begin to ring wherever they go."
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"message": "Peace on Earth is impossible because nobody will use this software or listen to the ideas held within."
+						}
+					]
+				}
+			]
+		}
+	],
+	"selectedDomain": "Peace on Earth"
+}
